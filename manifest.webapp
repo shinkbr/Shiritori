@@ -1,6 +1,6 @@
 {
-  "name": "Siritori",
-  "description": "A Siritori game app for Firefox OS",
+  "name": "Shiritori",
+  "description": "A Shiritori game app for Firefox OS",
   "launch_path": "/index.html",
   "icons": {
     "128": "/img/icons/icon_128.png"
