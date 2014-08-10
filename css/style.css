@@ -1,22 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 #word-input {
-  position: fixed:
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  height: 1.5em;
+  height: 2em;
+}
+
+div#record {
+  float: left;
+  margin-right: 1em;
+}
+
+div#max-record {
+  float: left;
+  margin-right: 1em;
+}
+
+div#next {
+  color: red;
+}
+
+div#status {
+  display: block;
+  min-height: 1.5em;
+  margin: 0.5em 0;
 }
 
 #word-history {
   margin: 0;
   padding: 0;
+  width: 100%;
+  list-style-type: none;
 }
 
 .used-word {
   display: block;
-  height: 3em;
+  min-height: 3em;
   width: 100%;
   list-style-type: none;
-  border: 1px grey solid;
+  border-top: 1px grey solid;
   margin: 0;
-  padding: 1em 0 0 1em;
+  padding: 0;
 }
+
+.player {
+  background-color: #ffdf7a;
+}
+
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.left-div {
+  float: left;
+  height: 3em;
+  width: 3em;
+  margin-right: 1em;
+  text-align: center;
+}
+
+.firefox-logo {
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  width: 100%;
+  height: 3em;
+}
+
+#time-limit {
+  float: left;
+  height: 100%;
+  margin-right: 1em;
+}
+

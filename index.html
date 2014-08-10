@@ -9,9 +9,17 @@
     <script src="js/Shiritori.js"></script>
     <script src="js/dictionary.js"></script>
   </head>
-  <body>
-  <input id="word-input" type="text" onchange="submitWord()"></input>
-  <ol id="word-history">
-  </ol>
+  <body onload="init()">
+  <div id="header">
+    <input id="word-input" type="text" placeholder="好きな言葉からスタート" onchange="playerSubmit()"></input>
+  </div>
+  <div id="status">
+    <div id="time-limit"></div>
+    <div id="record"></div>
+    <div id="max-record"></div>
+    <div id="next"></div>
+  </div>
+  <div id="word-history">
+  </div>
   </body>
 </html>
