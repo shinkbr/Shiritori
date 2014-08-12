@@ -5,11 +5,16 @@ body{
 }
 
 #word-input {
-  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: 2em;
+}
+
+#submit-button {
+  float: right;
+  padding: 0;
+  margin: 0;
 }
 
 div#record {
@@ -28,8 +33,9 @@ div#next {
 
 div#status {
   display: block;
-  min-height: 1.5em;
+  min-height: 3em;
   margin: 0.5em 0;
+  font-size: 150%;
 }
 
 #word-history {
@@ -37,6 +43,7 @@ div#status {
   padding: 0;
   width: 100%;
   list-style-type: none;
+  font-size: 150%;
 }
 
 .used-word {

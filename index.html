@@ -11,13 +11,20 @@
   </head>
   <body onload="init()">
   <div id="header">
-    <input id="word-input" type="text" placeholder="好きな言葉からスタート" onchange="playerSubmit()"></input>
+    <!--<input id="word-input" type="text" placeholder="好きな言葉からスタート" onchange="playerSubmit()"></input>-->
+
+    <form role="search" action="" class="bottom" onsubmit="playerSubmit(); return false;">
+      <button id="submit-button" type="submit">Send</button>
+      <p>
+        <input autofocus id="word-input" type="text" placeholder=""></input>
+      <p>
+    </form>
   </div>
   <div id="status">
+    <div id="next"></div>
     <div id="time-limit"></div>
     <div id="record"></div>
     <div id="max-record"></div>
-    <div id="next"></div>
   </div>
   <div id="word-history">
   </div>

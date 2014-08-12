@@ -16,6 +16,7 @@ function init(){
 
 
 function playerSubmit(){
+  $("#word-input").focus();
   var inputText = $("#word-input").val();
   var firstChar = inputText.charAt(0);
   var lastChar = inputText.charAt(inputText.length-1);
@@ -48,6 +49,8 @@ function playerSubmit(){
   else {
     $("#next").text("'" + inputText + "'は辞書に見つかりませんでした");
   }
+
+  return;
 }
 
 function computerSubmit(firstChar){
